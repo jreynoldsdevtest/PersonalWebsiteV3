@@ -1,0 +1,17 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: url('images/background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#header {
+    position: relative;
+    top: 80vh;
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: white;
+}
