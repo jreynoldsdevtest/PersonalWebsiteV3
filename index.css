@@ -10,8 +10,7 @@ body {
 }
 #header {
     position: relative;
-    top: 80vh;
+    top: 90vh;
     font-family: 'Lora', serif;
-    text-align: center;
     color: white;
 }
