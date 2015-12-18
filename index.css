@@ -11,6 +11,6 @@ body {
 #header {
     position: relative;
     top: 90vh;
-    font-family: 'Lora', serif;
+    font-size: 30px;
     color: white;
 }
