@@ -10,7 +10,7 @@ body {
 .wrapper {
     position: relative;
     top: 300px;
-    width: 560px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -20,7 +20,7 @@ body {
     height: 5px;
     width: 10px;
     opacity: .3;
-    display: inline-block;
+    float: left;
     animation: wave 2s infinite ease;
 }
 .square:nth-child(1) {
