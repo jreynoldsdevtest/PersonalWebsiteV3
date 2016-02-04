@@ -9,7 +9,7 @@ body {
 }
 .wrapper {
     position: relative;
-    top: 300px;
+    top: 150px;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -167,7 +167,7 @@ body {
     font-size: 48px;
     position: relative;
     font-family: 'Titillium Web', sans-serif;
-    top: 400px;
+    top: 250px;
     color: blue;
     text-align: center;
     width: 100vw;
@@ -178,7 +178,7 @@ body {
     font-family: 'Titillium Web', sans-serif;
     color: blue;
     opacity: .5;
-    top: 400px;
+    top: 250px;
     text-align: center;
     width: 100vw;
 }
