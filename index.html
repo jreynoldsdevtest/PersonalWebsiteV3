@@ -4,63 +4,57 @@
 	<title>Jake Reynolds</title>
 	<meta name="theme-color" content="blue">
 	<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="index.css" type="text/css">
 </head>
 
 <body>
-	<div class="wrapper">
-		<div id="square1" class="square"></div>
-		<div id="square2" class="square"></div>
-		<div id="square3" class="square"></div>
-		<div id="square4" class="square"></div>
-		<div id="square5" class="square"></div>
-		<div id="square6" class="square"></div>
-		<div id="square7" class="square"></div>
-		<div id="square8" class="square"></div>
-		<div id="square9" class="square"></div>
-		<div id="square10" class="square"></div>
-		<div id="square11" class="square"></div>
-		<div id="square12" class="square"></div>
-		<div id="square13" class="square"></div>
-		<div id="square14" class="square"></div>
-		<div id="square15" class="square"></div>
-		<div id="square16" class="square"></div>
-		<div id="square17" class="square"></div>
-		<div id="square18" class="square"></div>
-		<div id="square19" class="square"></div>
-		<div id="square20" class="square"></div>
-		<div id="square21" class="square"></div>
-		<div id="square22" class="square"></div>
-		<div id="square23" class="square"></div>
-		<div id="square24" class="square"></div>
-		<div id="square25" class="square"></div>
-		<div id="square26" class="square"></div>
-		<div id="square27" class="square"></div>
-		<div id="square28" class="square"></div>
-		<div id="square29" class="square"></div>
-		<div id="square30" class="square"></div>
-		<div id="square31" class="square"></div>
-		<div id="square32" class="square"></div>
-		<div id="square33" class="square"></div>
-		<div id="square34" class="square"></div>
-		<div id="square35" class="square"></div>
-		<div id="square36" class="square"></div>
-		<div id="square37" class="square"></div>
-		<div id="square38" class="square"></div>
-		<div id="square39" class="square"></div>
-		<div id="square40" class="square"></div>
+	<div id="header">
+		<h1 class="text-center">Jake Reynolds</h1>
+		<div class="text-center"><img id="me" src="images/me.jpg"></div>
+		<h4 class="text-center">Penetration Tester</h4>
 	</div>
-	<!--The squares above are "float: left", the br below allows the header to appear below-->
-	<br>
-
-	<div id="header">The tides are changing,</div>
-	<div id="subHeader">new site coming soon<sub><small>ish.</small></sub></div>
-
-	<div id="footer">
-		<a target="_blank" href="//codepen.io/jacobreynolds"><img src="images/codepen.png" /></a>
-		<a target="_blank" href="//github.com/jacobreynolds"><img src="images/github.png" /></a>
-		<a target="_blank" href="//twitter.com/jreynoldsdev"><img src="images/twitter.png" /></a>
+	<hr class="col-xs-12 col-xs-offset-0" style="background: black;">
+	<div id="body">
+		<div class="text-center col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0 bio">
+			<h2 class="text-center"><u>Bio</u></h2>
+			<p>I'm a software developer born and raised in the Twin Cities. In May 2016 I graduated from the University of Minnesota with a bachelor's degree in Computer Science. I currently work as a Penetration Tester at Thomson Reuters.</p>
+		</div>
+		<div class="text-center col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0 bio">
+			<h2 class="text-center"><u>Interests</u></h2>
+			<p>In my freetime I'm almost always coding. Feel free to check out my <a href="//github.com/jacobreynolds" target="_blank"><u>github</u></a>. I enjoy full-stack web development, security research/penetration testing, and arduino-based tinkering. Outside of computers I enjoy riding motorcycles, scuba diving, solving rubik's cubes, and finding new hobbies to get into.</p>
+		</div>
+		<div class="text-center col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0 bio">
+			<h1><u>Projects</u></h1>
+			<p>You can view some of my live projects below:</p>
+			<div class="project">
+				<p><span class="glyphicon glyphicon-plus" data-toggle="popover" title="Form Freedom" data-trigger="hover" data-placement="top" data-content="Never suffer the plight of looking for the USA in a dropdown menu again."></span> <a href="https://formfreedom.jakereynolds.co" target="_blank"><u>https://formfreedom.jakereynolds.co</u></a></p>
+			</div>
+			<div class="project">
+				<p><span class="glyphicon glyphicon-plus" data-toggle="popover" title="The Void" data-trigger="hover" data-placement="top" data-content="A therapeutic black hole to shout your thoughts into. If you listen closely, you might hear some echoes."></span> <a href="https://void.jakereynolds.co" target="_blank"><u>https://void.jakereynolds.co</u></a></p>
+			</div>
+			<div class="project">
+				<p><span class="glyphicon glyphicon-plus" data-toggle="popover" title="Trevor Dillon Art" data-trigger="hover" data-placement="top" data-content="A portfolio website made for a local tattoo artist."></span> <a href="http://trevordillonart.com" target="_blank"><u>http://trevordillonart.com</u></a></p>
+			</div>
+			<span>Hover over the plus for more info</span>
+			<div style="clear:both;"></div>
+		</div>
 	</div>
+	<hr class="col-xs-12 col-xs-offset-0" style="background: black;">
+	<div id="footer" class="col-xs-12">
+		<a target="_blank" href="//codepen.io/jacobreynolds"><img id="codepen" src="images/codepen.png" /></a>
+		<a target="_blank" href="//github.com/jacobreynolds"><img id="github" src="images/github.png" /></a>
+		<a target="_blank" href="//twitter.com/jreynoldsdev"><img id="twitter" src="images/twitter.png" /></a>
+	</div>
+
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script>
+	$(document).ready(function() {
+		$('[data-toggle="popover"]').popover();
+	});
+
+</script>
 
 </html>
