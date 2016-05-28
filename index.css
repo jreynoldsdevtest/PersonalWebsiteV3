@@ -2,8 +2,6 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	overflow-x: hidden;
-	min-height: 100vh;
 	font-family: 'Titillium Web', sans-serif;
 }
 #header h1 {
@@ -13,10 +11,18 @@ body {
 	margin-bottom: 0px;
 }
 hr {
-	margin: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0px;
+	height: 1px;
+	width: 100vw;
+	background: black;
 }
 p {
 	font-size: 24px;
+}
+.project {
+	white-space: nowrap;
 }
 #footer {
 	text-align: center;
@@ -32,6 +38,9 @@ p {
 	max-height: 0px;
 	overflow: hidden;
 	transition: all 1s ease;
+}
+.glyphicon {
+	margin-right: 5px;
 }
 a {
 	color: black;
@@ -77,5 +86,12 @@ a {
 @media (max-width: 600px) {
 	p {
 		font-size: 14px;
+	}
+	/*I don't know why I need this*/
+	.glyphicon {
+		display: none;
+	}
+	#hoverForInfo {
+		display: none;
 	}
 }
