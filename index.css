@@ -85,16 +85,16 @@ a {
 }
 @media screen and (max-width: 600px) {
 	p {
-		font-size: 14px;
+		font-size: 15px;
 	}
 	.glyphicon {
-		display: none !important;
+		display: none;
 	}
 	#hoverForInfo {
-		display: none !important;
+		display: none;
 	}
 	#footer img {
-		height: 100px;
-		width: 100px;
+		height: 80px;
+		width: 80px;
 	}
 }
