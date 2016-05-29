@@ -20,6 +20,8 @@ hr {
 }
 p {
 	font-size: 24px;
+	text-align: justify;
+	text-align-last: center;
 }
 .project {
 	white-space: nowrap;
