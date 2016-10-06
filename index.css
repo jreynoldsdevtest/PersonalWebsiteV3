@@ -69,9 +69,13 @@ a {
 	animation: 1s spin ease;
 	animation-delay: .2s;
 }
-#twitter {
+#medium {
 	animation: 1s spin ease;
 	animation-delay: .4s;
+}
+#twitter {
+	animation: 1s spin ease;
+	animation-delay: .6s;
 }
 @keyframes spin {
 	from {
